@@ -1,5 +1,5 @@
 {
-  "name": "medunten",
+  "name": "@maman/medunten",
   "version": "1.0.0",
   "description": "Madurese to indonesian converter",
   "main": "dist/index.js",
