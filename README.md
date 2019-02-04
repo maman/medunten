@@ -1,7 +1,6 @@
 # Medunten
-![appveyor](https://img.shields.io/appveyor/tests/maman/medunten.svg?style=flat-square&logo=appveyor)
-![travis](https://img.shields.io/travis/tests/maman/medunten.svg?style=flat-square&logo=travis)
-![npm](https://img.shields.io/npm/v/maman/medunten.svg)
+
+[![appveyor](https://img.shields.io/appveyor/tests/maman/medunten.svg?style=flat-square&label=Windows)](https://ci.appveyor.com/project/maman/medunten) [![travis](https://img.shields.io/travis/tests/maman/medunten.svg?style=flat-square&label=Mac%20OSX%20%26%20Linux)](https://travis-ci.org/maman/medunten) [![npm](https://img.shields.io/npm/v/@maman/medunten.svg)](https://www.npmjs.com/package/@maman/medunten)
 
 Mentranslasi bahasa indonesia ke bahasa madura (baik madura kasar, halus, atau super halus 👍) - atau sebaliknya. Menggunakan API dari situs web https://terjemahan.madura.web.id/
 
