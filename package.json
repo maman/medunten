@@ -1,0 +1,41 @@
+{
+  "name": "medunten",
+  "version": "1.0.0",
+  "description": "Madurese to indonesian converter",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/maman/medunten",
+  "author": "Achmad Mahardi <achmad@mahardi.me>",
+  "license": "MIT",
+  "dependencies": {
+    "fetch-ponyfill": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.21",
+    "husky": "^1.3.1",
+    "jest": "^23.0.0",
+    "lint-staged": "^8.1.3",
+    "prettier-standard": "^9.1.1",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.3.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublish": "npm run test && npm run build"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "lib/**/*.ts": [
+        "prettier-standard",
+        "git add"
+      ]
+    }
+  }
+}

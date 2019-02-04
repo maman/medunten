@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "pretty": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "lib": [
+      "es2015"
+    ],
+    "outDir": "dist"
+  },
+  "exclude": [
+    "__tests__/**/*.ts",
+    "**/*.d.ts"
+  ],
+}
