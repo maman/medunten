@@ -153,5 +153,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/macos,node,windows,linux
-
-dist
