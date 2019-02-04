@@ -1,4 +1,7 @@
 # Medunten
+https://img.shields.io/appveyor/tests/maman/medunten.svg?style=flat-square&logo=appveyor
+https://img.shields.io/travis/tests/maman/medunten.svg?style=flat-square&logo=travis
+https://img.shields.io/npm/v/maman/medunten.svg
 
 Mentranslasi bahasa indonesia ke bahasa madura (baik madura kasar, halus, atau super halus 👍) - atau sebaliknya. Menggunakan API dari situs web https://terjemahan.madura.web.id/
 
